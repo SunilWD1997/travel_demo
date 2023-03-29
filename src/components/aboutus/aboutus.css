@@ -1,0 +1,23 @@
+.aboutus{
+    padding: 4rem 6rem;
+}
+.aboutus h3{
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin-bottom: 0.8rem;
+}
+.aboutus p{
+    margin-bottom: 2rem;
+    text-align: justify;
+    font-size: .9rem;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+    
+    .aboutus{
+        padding: 1rem 2rem;
+    }    
+    
+}

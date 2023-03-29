@@ -1,0 +1,48 @@
+.recenttrips {
+    margin: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.recenttrips h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.recenttrips p {
+
+    margin-bottom: 2rem;
+    color: grey;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 2rem;
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+    .recenttrips {
+        margin: 1rem 2rem;
+
+    }
+
+    .recenttrips h2 {
+        font-size: 1.7rem;
+
+    }
+
+    .recenttrips p {
+        font-size: .7rem;
+        margin-bottom: .5rem;
+    }
+
+    .cards {
+        flex-direction: column;
+       
+    }
+}

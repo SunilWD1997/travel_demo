@@ -1,0 +1,74 @@
+.footer {
+    padding: 4rem 6rem;
+    color: white;
+    background-color: black;
+}
+
+.footer p,a {
+    font-size: .85rem;
+    color: grey;
+}
+.footer a {
+    line-height: 1.3rem;
+}
+.footer a:hover {
+    
+    color: rgb(70, 68, 68);
+    transition: all .2s;
+}
+
+.top_div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+}
+
+.top_div .social_icons {
+    display: flex;
+    gap: 0.8rem;
+
+}
+.top_div .social_icons i{
+ color: white;
+ font-size: 1.5rem;
+
+}
+
+.bottom_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_div .section {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom_div h4 {
+    margin-top: 2rem;
+    margin-bottom: 0.3rem;
+    font-weight: 400;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+    .footer {
+        padding: 2rem 1.6rem;
+        color: white;
+        background-color: black;
+    }
+    .top_div {
+      flex-direction: column;
+    
+    }
+    .top_div .social_icons {
+       align-self: center;
+       margin-top: .5rem;
+       
+       }
+    .bottom_div {
+        flex-wrap: wrap;
+        gap: 0.3rem;
+    }
+}
